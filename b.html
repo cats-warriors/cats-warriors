@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.block1 { 
+    width: 200px; 
+    overflow: auto;
+    margin-left: 100px;
+    margin-top: 100px;
+    display: inline-block;
+    height: 200px;
+    border-radius:100px;
+}
+.block11 { 
+    margin-left: 150px;
+}
+.block{
+  display: flex;
+  flex-direction: row ;
+}
+@media screen and (max-width: 992px) { 
+    .block {flex-wrap: wrap ;
+    } 
+    .block2 { width: 300px;
+    } 
+    img{
+      width: 300px;
+      height:380px ;
+    }
+    .block1 { 
+      width: 300px;
+      height:300px ;
+      border-radius:200px;
+    } 
+    .block11 { 
+      margin-left: 200px;}
+  }
+.text{
+  width: 100px; 
+  text-align:  center;}
+.block2 { 
+    width: 200px; 
+    overflow: auto;
+    margin-left: 100px;
+    margin-top: 100px;
+    display: inline-block;
+    height: 200px;
+    border-radius:100px;
+}
+.block22 { 
+    margin-left: 160px;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a href=index.html>о племени</a>
+  <a class="active" href="#news">участники</a>
+  <a href="c.html">как вступить</a>
+  <a href="d.html">вопросы</a>
+</div>
+<div class="block">
+    <div><div class="block1"><img src=настя.jpg width="200"></div><div class="block11"><div class="text"><h2>Настя</h2><p>В нашем племени Настя целитель. Eё кличка северня лань.A также лань относиться к верхешке племени.</p></div></div></div>
+    <div><div class="block1"><img src=v.jpg width="200"></div><div class="block11"><div class="text"><h2>Ваня</h2><p>Ваня - смелый воитель! Его кличка Кореной Север. Если что то коренной север всегда прийдёт на помощь!</p></div></div></div>
+    <div><div class="block1"><img src=o.jpg width="200"></div><div class="block11"><div class="text"><h2>Олеся</h2><p>Олеся - предводительница нашего и создательница племени! Её кличка Северная Звезда. </p></div></div></div>
+    <div><div class="block1"><img src=N.jpg width="350"></div><div class="block11"><div class="text"><h2></h2><p>она юная воительница нашего племени. Ещё не знает во основном нас. Является второйвоительницей нашего племени.</p></div></div></div>
+  </div>
+  </body>
+</html>
